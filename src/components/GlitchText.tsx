@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 interface GlitchTextProps {
   text: string;
 }
+ 
 
 export const GlitchText: React.FC<GlitchTextProps> = ({ text }) => {
   return (
