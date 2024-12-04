@@ -64,7 +64,7 @@ const items = [
   </div>,
   <div className="flex justify-center">
     <img
-      src="/assets/image.png"
+      src="/assets/aa.jpg"
       onDragStart={handleDragStart}
       role="presentation"
       className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
@@ -72,7 +72,7 @@ const items = [
   </div>,
   <div className="flex justify-center">
     <img
-      src="/assets/GuessNDie.png"
+      src="/assets/dd.jpg"
       onDragStart={handleDragStart}
       role="presentation"
       className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
@@ -80,7 +80,7 @@ const items = [
   </div>,
   <div className="flex justify-center">
     <img
-      src="/assets/image.png"
+      src="/assets/football.jpg"
       onDragStart={handleDragStart}
       role="presentation"
       className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
@@ -88,7 +88,7 @@ const items = [
   </div>,
   <div className="flex justify-center">
     <img
-      src="/assets/GuessNDie.png"
+      src="https://wallpapers.com/images/featured/racing-games-jdbf894smtxuoaoy.jpg"
       onDragStart={handleDragStart}
       role="presentation"
       className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"

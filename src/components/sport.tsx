@@ -1,9 +1,8 @@
-import Video from "../../public/assets/BG_Vid.mp4";
 
 const latestCollections = [
-  { src: "/assets/image.png", name: "PacMan", link: "/collection1" },
+  { src: "/assets/dd.jpg", name: "PacMan", link: "/collection1" },
   {
-    src: "/assets/GuessNDie.png",
+    src: "/assets/football.jpg",
     name: "Guess & Survive",
     link: "/collection2",
   },

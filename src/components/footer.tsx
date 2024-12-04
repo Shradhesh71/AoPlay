@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Angular
+                  Rankings
                 </a>
               </li>
               <li>
@@ -134,7 +134,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  React
+                  Games
                 </a>
               </li>
               <li>
@@ -142,7 +142,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Vue
+                  Alerts
                 </a>
               </li>
               <li>
@@ -150,7 +150,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Laravel
+                  Dev Games
                 </a>
               </li>
             </ul>
@@ -158,14 +158,14 @@ export const Footer: React.FC = () => {
 
           {/* Useful Links */}
           <div>
-            <h6 className="text-lg font-bold mb-4 text-white">Useful Links</h6>
+            <h6 className="text-lg font-bold mb-4 text-white">Company</h6>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Pricing
+                  About us
                 </a>
               </li>
               <li>
@@ -173,7 +173,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Settings
+                  Terms of use  
                 </a>
               </li>
               <li>
@@ -181,7 +181,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Orders
+                  Disclaimer
                 </a>
               </li>
               <li>
@@ -189,7 +189,7 @@ export const Footer: React.FC = () => {
                   href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Help
+                  Privacy policy
                 </a>
               </li>
             </ul>

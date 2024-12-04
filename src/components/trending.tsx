@@ -6,11 +6,11 @@ const latestCollections = [
     link: "/collection2",
   },
   {
-    src: "/assets/GuessNDie.png",
+    src: "/assets/aa.jpg",
     name: "Guess & Survive",
     link: "/collection3",
   },
-  { src: "/assets/image.png", name: "PacMan", link: "/collection4" },
+  { src: "/assets/dd.jpg", name: "PacMan", link: "/collection4" },
 ];
 
 const Trending = () => {
