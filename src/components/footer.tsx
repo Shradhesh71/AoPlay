@@ -1,58 +1,11 @@
-// export const Footer: React.FC = () => {
-//     return (
-//         <div>
-//       <footer className="text-gray-700 body-font bg-black">
-//         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-//           <a
-//             href="/"
-//             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-//           >
-            
-//             <span className="ml-3 text-xl text-white">AO Play</span>
-//             </a>
-//             <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-//               © 2024 AO Play. All rights reserved.
-//             </p>
-//             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-//               <a
-//                 className="text-red-500"
-//                 href="https://github.com/Shradhesh71"
-//                 rel="noopener noreferrer"
-//                 target="_blank"
-//               >
-//                 Github
-//               </a>
-//               <a
-//                 className="ml-3 text-blue-500"
-//                 href="https://www.linkedin.com/in/shradesh-jodawat-147730265/"
-//                 rel="noopener noreferrer"
-//                 target="_blank"
-//               >
-//                 Linkedin
-//               </a>
-//               <a
-//                 className="ml-3 text-white-200"
-//                 href="https://medium.com/@"
-//                 rel="noopener noreferrer"
-//                 target="_blank"
-//               >
-//                 WrapCast
-//               </a>
-//               <a
-//                 className="ml-3 text-indigo-500"
-//                 href="https://x.com/Shradeshjain835/"
-//                 rel="noopener noreferrer"
-//                 target="_blank"
-//               >
-//                 Twitter
-//               </a>
-//             </span>
-//           </div>
-//         </footer>
-//       </div>
-//     )
-// }
-
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPinterest,
+  FaSnapchatGhost,
+  FaTwitterSquare,
+} from "react-icons/fa";
 import React from "react";
 
 export const Footer: React.FC = () => {
@@ -66,7 +19,7 @@ export const Footer: React.FC = () => {
               Get connected with us on social networks:
             </p>
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a
               href="#"
               className="text-gray-300 hover:text-white transition-transform transform hover:scale-110"
@@ -103,6 +56,31 @@ export const Footer: React.FC = () => {
             >
               <i className="fab fa-github"></i>
             </a>
+          </div> */}
+          <div className="flex space-x-4">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <FaFacebook size={24} />
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
+              <FaTwitter size={24} />
+            </a>
+            <a
+              href="https://www.pinterest.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaPinterest size={24} />
+            </a>
+            <a href="https://www.snapchat.com" target="_blank" rel="noreferrer">
+              <FaSnapchatGhost size={24} />
+            </a>
           </div>
         </div>
 
@@ -122,34 +100,22 @@ export const Footer: React.FC = () => {
             <h6 className="text-lg font-bold mb-4 text-white">Products</h6>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Rankings
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Games
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Alerts
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Dev Games
                 </a>
               </li>
@@ -161,34 +127,22 @@ export const Footer: React.FC = () => {
             <h6 className="text-lg font-bold mb-4 text-white">Company</h6>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   About us
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
-                  Terms of use  
+                <a href="#" className="hover:text-white transition-colors">
+                  Terms of use
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Disclaimer
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="#" className="hover:text-white transition-colors">
                   Privacy policy
                 </a>
               </li>
@@ -225,10 +179,10 @@ export const Footer: React.FC = () => {
         <p>
           © 2024 Copyright:{" "}
           <a
-            href="https://yourwebsite.com"
+            href="https://ao-play.vercel.app/"
             className="text-white font-bold hover:underline"
           >
-            YourWebsite.com
+            ao-play.vercel.app
           </a>
         </p>
       </div>

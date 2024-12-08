@@ -1,10 +1,10 @@
 
 const latestCollections = [
-  { src: "/assets/dd.jpg", name: "PacMan", link: "/collection1" },
+  { src: "/assets/dd.jpg", name: "Cricket", link: "https://pac-man-v8br.vercel.app/" },
   {
     src: "/assets/football.jpg",
-    name: "Guess & Survive",
-    link: "/collection2",
+    name: "FIFA 2024",
+    link: "https://hangman-two-peach.vercel.app/",
   },
 ];
 

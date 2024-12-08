@@ -1,16 +1,16 @@
 const latestCollections = [
-  { src: "/assets/image.png", name: "PacMan", link: "/collection1" },
+  { src: "/assets/image.png", name: "PacMan", link: "https://pac-man-v8br.vercel.app/" },
   {
     src: "/assets/GuessNDie.png",
     name: "Guess & Survive",
-    link: "/collection2",
+    link: "https://hangman-two-peach.vercel.app/",
   },
   {
     src: "/assets/aa.jpg",
     name: "Guess & Survive",
-    link: "/collection3",
+    link: "https://hangman-two-peach.vercel.app/",
   },
-  { src: "/assets/dd.jpg", name: "PacMan", link: "/collection4" },
+  { src: "/assets/dd.jpg", name: "Big Win", link: "https://pac-man-v8br.vercel.app/" },
 ];
 
 const Trending = () => {

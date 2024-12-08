@@ -37,7 +37,7 @@ const games = [
 
 export const LandingPage: React.FC = () => {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative bg-black">
       <section className="relative h-screen overflow-hidden">
         <video
           autoPlay
