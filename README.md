@@ -38,14 +38,14 @@ AOplay is a decentralized gaming platform that bridges players and creators in a
 ## 🛠️ **Developer Features**
 1. **Unity SDK**: Develop and publish Unity-based games with ease.
 2. **JavaScript API**: Integrate JavaScript-powered games seamlessly.
-3. **Monetization**: Developers earn revenue based on downloads and player engagement, with a platform fee deducted.
+3. **Monetization**: Developers earn revenue by selling in-game assets, skins, and exclusive content directly on the AOplay marketplace.
 
 ---
 
 ## 💎 **AO Shards: The Core of AOplay**
 AO Shards serve as the decentralized currency and energy source connecting games and players.  
 ### **Key Features**:
-- **Earnings**: Players earn AO Shards by progressing through games, completing challenges, and trading assets.  
+- **Earnings**: Players earn AO Shards by progressing through games, completing challenges, and engaging with the marketplace, creating a rewarding and immersive gaming experience.  
 - **Developer Tools**: AO Shards unlock exclusive development tools and incentivize creativity.  
 - **Fairness**: Anchoring every transaction ensures a transparent and unified platform.
 
