@@ -2,7 +2,7 @@ import { messageResult } from "./utlis";
 
 export async function pacman(powerup: string) {
   try {
-    const gameProcess = "40yZY0aeTTOmkGqqRPH-jAT26acBfyClVgodD_9fTu4";
+    // const gameProcess = "40yZY0aeTTOmkGqqRPH-jAT26acBfyClVgodD_9fTu4";
     const { Messages, Spawns, Output, Error } = await messageResult(
       "40yZY0aeTTOmkGqqRPH-jAT26acBfyClVgodD_9fTu4",
       [
@@ -32,6 +32,7 @@ export async function pacman(powerup: string) {
 
 export async function odyssey(powerup: string) {
   try {
+    console.log("odyssey powerup:", powerup);
     const gameProcess = "40yZY0aeTTOmkGqqRPH-jAT26acBfyClVgodD_9fTu4";
     const { Messages, Spawns, Output, Error } = await messageResult(
       gameProcess,
