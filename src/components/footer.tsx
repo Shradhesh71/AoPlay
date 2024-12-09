@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
             >
               <FaInstagram size={24} />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
+            <a href="https://x.com/_aoPlay_" target="_blank" rel="noreferrer">
               <FaTwitter size={24} />
             </a>
             <a

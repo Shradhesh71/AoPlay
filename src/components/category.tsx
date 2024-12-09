@@ -55,12 +55,14 @@ const items = [
     />
   </div>,
   <div className="flex justify-center">
-    <img
-      src="/assets/GuessNDie.png"
-      onDragStart={handleDragStart}
-      role="presentation"
-      className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
-    />
+    <a href="https://hangman-two-peach.vercel.app/" target="_blank">
+      <img
+        src="/assets/GuessNDie.png"
+        onDragStart={handleDragStart}
+        role="presentation"
+        className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
+      />
+    </a>
   </div>,
   <div className="flex justify-center">
     <img
@@ -79,6 +81,16 @@ const items = [
     />
   </div>,
   <div className="flex justify-center">
+    <a href="https://temporal-odyssey-build.vercel.app/">
+      <img
+        src="https://img.itch.zone/aW1hZ2UvMzA5MDg4MS8xODQ4MzMyMi5qcGc=/original/p06GbS.jpg"
+        onDragStart={handleDragStart}
+        role="presentation"
+        className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
+      />
+    </a>
+  </div>,
+  <div className="flex justify-center">
     <img
       src="/assets/football.jpg"
       onDragStart={handleDragStart}
@@ -87,12 +99,14 @@ const items = [
     />
   </div>,
   <div className="flex justify-center">
-    <img
-      src="https://wallpapers.com/images/featured/racing-games-jdbf894smtxuoaoy.jpg"
-      onDragStart={handleDragStart}
-      role="presentation"
-      className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
-    />
+    <a href="https://pac-man-v8br.vercel.app/">
+      <img
+        src="https://wallpapers.com/images/featured/racing-games-jdbf894smtxuoaoy.jpg"
+        onDragStart={handleDragStart}
+        role="presentation"
+        className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
+      />
+    </a>
   </div>,
 ];
 
@@ -126,4 +140,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-

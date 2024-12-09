@@ -15,12 +15,12 @@ const games = [
   },
   {
     title: "PacMan",
-    image: "../../public/assets/image.png",
+    image: "assets/image.png",
     playUrl: "https://pac-man-v8br.vercel.app/"
   },
   {
     title: "Guess or Die",
-    image: "../../public/assets/GuessNDie.png",
+    image: "/assets/GuessNDie.png",
     playUrl: "https://hangman-two-peach.vercel.app/"
   },
   {

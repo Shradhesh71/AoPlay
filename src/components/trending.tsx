@@ -1,5 +1,14 @@
 const latestCollections = [
-  { src: "/assets/image.png", name: "PacMan", link: "https://pac-man-v8br.vercel.app/" },
+  {
+    src: "https://img.itch.zone/aW1hZ2UvMzA5MDg4MS8xODQ4MzMyMi5qcGc=/original/p06GbS.jpg",
+    name: "Temporal Odyssey",
+    link: "https://temporal-odyssey-build.vercel.app/",
+  },
+  {
+    src: "/assets/image.png",
+    name: "PacMan",
+    link: "https://pac-man-v8br.vercel.app/",
+  },
   {
     src: "/assets/GuessNDie.png",
     name: "Guess & Survive",
@@ -7,10 +16,9 @@ const latestCollections = [
   },
   {
     src: "/assets/aa.jpg",
-    name: "Guess & Survive",
+    name: "Shooting",
     link: "https://hangman-two-peach.vercel.app/",
   },
-  { src: "/assets/dd.jpg", name: "Big Win", link: "https://pac-man-v8br.vercel.app/" },
 ];
 
 const Trending = () => {
@@ -22,7 +30,7 @@ const Trending = () => {
       <p className="text-center mb-6 text-lg text-gray-600">
         Elevate your gaming experience with our hottest picks
       </p>
-      
+
       <div className="flex flex-wrap justify-center gap-6">
         {latestCollections.map((collection, index) => (
           <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4">
