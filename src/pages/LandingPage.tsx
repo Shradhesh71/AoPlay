@@ -1,38 +1,41 @@
-import React from 'react';
-import { GlitchText } from '../components/GlitchText';
-import { motion } from 'framer-motion';
-import { GameCard } from '../components/GameCard';
-import Video from '../../public/assets/BG_Vid.mp4'
-import Trending from '../components/trending';
-import Sport from '../components/sport';
-import Gallery from '../components/category';
+import React from "react";
+import { GlitchText } from "../components/GlitchText";
+import { motion } from "framer-motion";
+import { GameCard } from "../components/GameCard";
+import Video from "../../public/assets/BG_Vid.mp4";
+import Trending from "../components/trending";
+import Sport from "../components/sport";
+import Gallery from "../components/category";
 
 const games = [
   {
     title: "Temporal Odyssey",
-    image: "https://img.itch.zone/aW1hZ2UvMzA5MDg4MS8xODQ4MzMyMi5qcGc=/original/p06GbS.jpg",
-    playUrl: "https://temporal-odyssey-build.vercel.app/"
+    image:
+      "https://img.itch.zone/aW1hZ2UvMzA5MDg4MS8xODQ4MzMyMi5qcGc=/original/p06GbS.jpg",
+    playUrl: "https://temporal-odyssey-build.vercel.app/",
   },
   {
     title: "PacMan",
     image: "assets/image.png",
-    playUrl: "https://pac-man-v8br.vercel.app/"
+    playUrl: "https://pac-man-v8br.vercel.app/",
   },
   {
     title: "Guess or Die",
     image: "/assets/GuessNDie.png",
-    playUrl: "https://hangman-two-peach.vercel.app/"
+    playUrl: "https://hangman-two-peach.vercel.app/",
   },
   {
     title: "Dash Car",
-    image: "https://wallpapers.com/images/featured/racing-games-jdbf894smtxuoaoy.jpg",
-    playUrl: "https://pac-man-v8br.vercel.app/"
+    image:
+      "https://wallpapers.com/images/featured/racing-games-jdbf894smtxuoaoy.jpg",
+    playUrl: "https://pac-man-v8br.vercel.app/",
   },
   {
     title: "NFS Racing",
-    image: "https://img.freepik.com/free-vector/game-competition-continue-player-used-high-speed-car-win-racing-game_1150-47240.jpg",
-    playUrl: "https://hangman-two-peach.vercel.app/"
-  }
+    image:
+      "https://img.freepik.com/free-vector/game-competition-continue-player-used-high-speed-car-win-racing-game_1150-47240.jpg",
+    playUrl: "https://hangman-two-peach.vercel.app/",
+  },
 ];
 
 export const LandingPage: React.FC = () => {
@@ -46,13 +49,10 @@ export const LandingPage: React.FC = () => {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
-          <source
-            src= {Video}
-            type="video/mp4"
-          />
+          <source src={Video} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
-        
+
         <div className="relative h-full flex flex-col items-center justify-center">
           <motion.div
             initial={{ y: 50, opacity: 0 }}
@@ -72,9 +72,9 @@ export const LandingPage: React.FC = () => {
           </motion.div>
         </div>
       </section>
-      <Trending/>
-      <Gallery/>
-      <Sport/>
+      <Trending />
+      <Gallery />
+      <Sport />
 
       <section className="bg-gray-900 py-20 px-4">
         <motion.div

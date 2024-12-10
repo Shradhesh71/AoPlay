@@ -1,6 +1,9 @@
-
 const latestCollections = [
-  { src: "/assets/dd.jpg", name: "Cricket", link: "https://pac-man-v8br.vercel.app/" },
+  {
+    src: "https://i.ibb.co/ZJQN1DP/image-name.jpg",
+    name: "Cricket",
+    link: "https://pac-man-v8br.vercel.app/",
+  },
   {
     src: "/assets/football.jpg",
     name: "FIFA 2024",
@@ -11,18 +14,6 @@ const latestCollections = [
 const Sport = () => {
   return (
     <div className="container mx-auto px-4 py-8 bg-black/95">
-      {/* <video
-          autoPlay
-          loop
-          muted
-          playsInline
-        //   className=" relativ object-cover"
-        >
-          <source
-            src= {Video}
-            type="video/mp4"
-          />
-        </video> */}
       <h2 className="text-4xl font-bold text-center mb-4 text-white">
         Sport Games
       </h2>
@@ -42,13 +33,13 @@ const Sport = () => {
                 <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
                   {collection.name}
                   <a
-              href={collection.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-400 hover:bg-blue-600 ml-10 text-white px-6 py-2 rounded-lg transition-colors"
-            >
-              Play for Free!
-            </a>
+                    href={collection.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-blue-400 hover:bg-blue-600 ml-10 text-white px-6 py-2 rounded-lg transition-colors"
+                  >
+                    Play for Free!
+                  </a>
                 </div>
               </div>
             </a>
