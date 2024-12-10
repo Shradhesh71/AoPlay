@@ -74,7 +74,7 @@ const items = [
   </div>,
   <div className="flex justify-center">
     <img
-      src="/assets/dd.jpg"
+      src="/assets/football.jpg"
       onDragStart={handleDragStart}
       role="presentation"
       className="h-80 w-96 rounded-lg shadow-lg object-cover transition-transform transform hover:scale-105 hover:rotate-3"
